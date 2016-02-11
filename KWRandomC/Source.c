@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -14,7 +15,9 @@ int main() {
 	real_val = rand() / (double)RAND_MAX;
 
 	/*0‚©‚çRANGE_MAX(=100)‚Ì”ÍˆÍ‚Ì®”‚Å—”‚ğ¶¬*/
-	integer_val = rand() % RANGE_MAX;
+	integer_val = rand() % (RANGE_MAX + 1);
+
+	printf("%lf, %d\n", real_val, integer_val);
 
 	return 0;
 }
