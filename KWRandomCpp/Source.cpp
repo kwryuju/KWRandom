@@ -12,11 +12,11 @@ int main() {
 	std::mt19937 mt(rnd_dev());
 	std::cout << mt() << std::endl;
 
-	//ˆê—l®”—”(0`RANGE_MAX)
+	//®”ˆê—l•ª•z(0`RANGE_MAX)
 	std::uniform_int_distribution<> ui_rand(0, RANGE_MAX);
 	std::cout << ui_rand(mt) << std::endl;
 
-	//³‹KÀ”—”(0.0`1.0)
+	//À”³‹K•ª•z(0.0`1.0)
 	std::normal_distribution<> nr_rand(0.0, 1.0);
 	std::cout << nr_rand(mt) << std::endl;
 
