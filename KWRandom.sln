@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KWRandomCpp", "KWRandomCpp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWRandomCs", "KWRandomCs\KWRandomCs.csproj", "{740DC96A-39A3-4BB7-BE9D-32B01540AF68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KWPsudoRandom", "KWPsudoRandom\KWPsudoRandom.vcxproj", "{4E077EDA-703D-415E-A08C-17F3B9773663}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,16 @@ Global
 		{740DC96A-39A3-4BB7-BE9D-32B01540AF68}.Release|x64.Build.0 = Release|Any CPU
 		{740DC96A-39A3-4BB7-BE9D-32B01540AF68}.Release|x86.ActiveCfg = Release|Any CPU
 		{740DC96A-39A3-4BB7-BE9D-32B01540AF68}.Release|x86.Build.0 = Release|Any CPU
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Debug|x64.ActiveCfg = Debug|x64
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Debug|x64.Build.0 = Debug|x64
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Debug|x86.Build.0 = Debug|Win32
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Release|Any CPU.ActiveCfg = Release|Win32
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Release|x64.ActiveCfg = Release|x64
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Release|x64.Build.0 = Release|x64
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Release|x86.ActiveCfg = Release|Win32
+		{4E077EDA-703D-415E-A08C-17F3B9773663}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
