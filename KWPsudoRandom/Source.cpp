@@ -92,7 +92,7 @@ int main() {
 	}
 
 	//‰ğ•úˆ—
-	delete buffer;
+	delete[] buffer;
 	for (size_t i = 0; i < NUM; i++)
 	{
 		delete PRNGs[i];

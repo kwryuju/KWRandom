@@ -19,7 +19,7 @@ public:
 	}
 
 	~KWLFSR() {
-		delete regs;
+		delete[] regs;
 	};
 
 	virtual unsigned int next() {
